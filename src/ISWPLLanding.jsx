@@ -44,6 +44,9 @@ export default function ISWPLLanding() {
               A celebration of youth, skill, and sportsmanship — where rising
               stars compete for glory under the golden lights.
             </p>
+            <p className="mt-4 text-gray-300 max-w-xl">
+              The registration charge is 1200rs for each player.
+            </p>
 
             <div className="mt-8 flex gap-4">
               <a

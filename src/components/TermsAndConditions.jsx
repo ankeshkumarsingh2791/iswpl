@@ -68,6 +68,7 @@ export default function TermsAndConditions() {
           {/* 💳 PAYMENTS */}
           <h2 className="text-2xl font-bold text-[#D4AF37] mt-8 mb-3">💳 Payments</h2>
           <p className="text-gray-200 mb-4">
+            The registration charge is 1200 rupees per player.
             All registration and franchise fees are non-refundable unless otherwise stated in the Refund Policy.
           </p>
           <p className="text-gray-200 mb-4">
