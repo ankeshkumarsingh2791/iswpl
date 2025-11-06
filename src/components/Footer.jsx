@@ -139,7 +139,7 @@ const Footer = () => {
               © {new Date().getFullYear()}{" "}
               <span className="font-semibold text-[#D4AF37]">ISWPL</span>. Rising Entertainment Events. All rights reserved.
               <div className="mt-2 text-xs text-gray-400">
-                <Link to={"/terms-and-conditions"}>Terms & Conditions</Link>   • <Link to={"/privacy-policy"}>Privacy Policy</Link> • Accessibility
+                <Link className="hover:text-[#D4AF37]" to={"/terms-and-conditions"}>Terms & Conditions</Link>   • <Link target="_top" className="hover:text-[#D4AF37]" to={"/privacy-policy"}>Privacy Policy</Link> • Accessibility
                   
               </div>
             </div>
