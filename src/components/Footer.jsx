@@ -74,11 +74,11 @@ const Footer = () => {
                     Teams
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="hover:text-white transition" href="#schedule">
                     Schedule
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="hover:text-white transition" href="#gallery">
                     Gallery

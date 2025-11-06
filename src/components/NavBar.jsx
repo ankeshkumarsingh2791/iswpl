@@ -32,7 +32,7 @@ const NavBar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 text-sm font-medium items-center">
-          {navItems.map((item) => (
+          {/* {navItems.map((item) => (
             <Link
               key={item.name}
               to={item.path}
@@ -42,7 +42,7 @@ const NavBar = () => {
             >
               {item.name}
             </Link>
-          ))}
+          ))} */}
 
           <a
           target="_blank"
@@ -63,7 +63,7 @@ const NavBar = () => {
       </div>
 
       {/* Mobile Dropdown Menu */}
-      <div
+      {/* <div
         className={`md:hidden flex flex-col items-center gap-4 bg-[#0F5132]/95 text-white text-sm font-medium py-4 transition-all duration-300 ${
           isMenuOpen
             ? "max-h-96 opacity-100 visible"
@@ -90,7 +90,7 @@ const NavBar = () => {
         >
           Register
         </a>
-      </div>
+      </div> */}
     </nav>
   );
 };

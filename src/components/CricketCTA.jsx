@@ -97,13 +97,13 @@ const CricketCTA = () => {
             Register Your Team
           </motion.a>
 
-          <motion.a
-            href="#highlights"
-            whileHover={{ scale: 1.05 }}
-            className="px-8 py-4 border border-[#FFD700] text-[#FFD700] rounded-full font-semibold hover:bg-[#FFD700]/10 transition-all"
+          <motion.div
+          
+            // whileHover={{ scale: 1.05 }}
+            className="px-8 py-4 border border-[#FFD700] text-[#FFD700] rounded-full font-semibold  transition-all"
           >
             Watch Highlights
-          </motion.a>
+          </motion.div>
         </div>
 
         <motion.div
