@@ -63,37 +63,38 @@ const Footer = () => {
               <h3 className="text-sm font-semibold text-[#D4AF37] mb-4">
                 Explore
               </h3>
-              <ul className="grid grid-cols-2 gap-2 text-sm text-gray-200">
+              <ul className="grid grid-cols-1 gap-2 text-sm text-gray-200">
                 <li>
                   <a className="hover:text-white transition" href="#about">
                     About
                   </a>
                 </li>
-                <li>
+                 <li>
+                  <a className="hover:text-white transition" href="#contact">
+                    Contact
+                  </a>
+                </li>
+                {/* <li>
                   <a className="hover:text-white transition" href="#teams">
                     Teams
                   </a>
-                </li>
+                </li> */}
                 {/* <li>
                   <a className="hover:text-white transition" href="#schedule">
                     Schedule
                   </a>
                 </li> */}
-                <li>
+                {/* <li>
                   <a className="hover:text-white transition" href="#gallery">
                     Gallery
                   </a>
                 </li>
-                <li>
-                  <a className="hover:text-white transition" href="#contact">
-                    Contact
-                  </a>
-                </li>
+               
                 <li>
                   <a className="hover:text-white transition" href="#sponsors">
                     Sponsors
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
 
